@@ -1,0 +1,53 @@
+body, html {
+    height: 100%;
+  }
+  .backph {
+    background-image: url("Images/1.jpg");
+    height: 100%;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .container {
+    position: absolute;
+    top: 35%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+    margin: 0 auto;
+    padding: 60px;
+    border-radius: 50px;
+    background-color:#ddd;   
+  }
+  .pic1,.pic2{
+    align-content: center;
+    padding: 10px;
+  }
+ 
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    background: #ddd;
+    border-bottom: 3px solid black;
+    margin: 20px 10px;
+    outline: none;
+  }
+  
+input[type=text]:focus,input[type=password]:focus {
+    border-bottom: 3px solid blue;
+    outline: none;
+}
+ 
+  /* Set a style for the submit button */
+  .btn {
+    background-color: #d069d0;
+    color:black;
+    padding: 10px 10px;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    border-radius: 12px;
+    opacity: 0.7;
+  }
+  

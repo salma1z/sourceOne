@@ -1,0 +1,49 @@
+body, html {
+    height: 100%;
+  }
+  .home a{
+    float: left;
+    margin: 20px;
+    padding:20px;
+  }
+  .backph {
+    background-image: url("Images/1.jpg");
+    position: relative;
+    height: 100%;
+    background-repeat: repeat;
+  }
+  .header a{
+    left: 0;
+    top: 0;
+    margin: 20px;
+    padding:20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    float: right;
+  }
+.form2{
+    width: 250px;
+height: 270px;
+background-color: rgb(143, 58, 253);
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+text-align: center;
+position: relative;
+padding: 144px;
+border-radius: 70px;
+}
+
+.app1{
+    position: absolute;
+    top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+    text-align: center;
+    font-weight: bold;
+    justify-content: center;
+}
+a:hover{
+    cursor: pointer;
+}

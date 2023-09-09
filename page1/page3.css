@@ -1,0 +1,49 @@
+body, html {
+    height: 100%;
+  }
+  .home a{
+    float: left;
+    margin: 20px;
+    padding:20px;
+  }
+  .header a{
+    left: 0;
+    top: 0;
+    margin: 20px;
+    padding:20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    float: right;
+  }
+  a:hover{
+    cursor: pointer;
+    color:#d069d0;
+  }
+  img{
+    padding: 10px;
+  }
+  .tab{
+    padding: 80px;
+    align-items: center;
+    margin-left: 120px;
+    justify-content:space-between ;
+    text-align: center; 
+    display: flex;
+    align-items: center;
+ }
+ 
+ td{
+    border-spacing:5px;
+ }
+.tab td:hover {
+    background-color: #5d5a5a;
+    cursor: pointer;
+  }
+  table,tr, td {
+    border-collapse: collapse;
+    padding: 10px;
+  }
+  img .pic13:active{
+    background-image: url("Images/l1.jpg");
+  }
